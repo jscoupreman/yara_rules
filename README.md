@@ -1,2 +1,2 @@
 # yara_rules
-It's something ¯\_(ツ)_/¯
+It's something ¯\\\_(ツ)\_/¯
