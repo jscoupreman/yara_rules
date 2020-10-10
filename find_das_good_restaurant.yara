@@ -6,10 +6,10 @@ rule Find_Das_Good_Restaurant
 		description = "This rule finds the best damn good restaurant in the area."
 		
 	strings:
-		$cooking_type1 = "chinese"
-		$cooking_type2 = "japanese"
-		$cooking_type3 = "greek"
-		$cooking_type4 = "italian"
+		$cooking_type1 = "chinese" nocase
+		$cooking_type2 = "japanese" nocase
+		$cooking_type3 = "greek" nocase
+		$cooking_type4 = "italian" nocase
 		$noodles = "das gud chinese chef noodles"
 		$pizza_prep = "wood-fired pizza"
 		
