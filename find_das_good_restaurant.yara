@@ -14,7 +14,5 @@ rule Find_Das_Good_Restaurant
 		$pizza_prep = "wood-fired pizza"
 		
 	condition:
-		$cooking_type1 or $cooking_type2 or $cooking_type3
-		$cooking_type1 and $noodles
-		$cooking_type4 and $pizza_prep
+		($cooking_type1 and $noodles) or $cooking_type2 or $cooking_type3 or ($cooking_type4 and $pizza_prep)
 }
